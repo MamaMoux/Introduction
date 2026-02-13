@@ -111,8 +111,8 @@ nav a:hover {
   color: #a67b5b;
 }
 
-/* TIMELINE */
-.timeline {
+/* FANDOM */
+.fandom {
   border-left: 3px solid #a67b5b;
   padding-left: 25px;
 }
@@ -134,13 +134,10 @@ nav a:hover {
   border-radius: 50%;
 }
 
-.year {
-  font-weight: bold;
-  color: #50492e;
-}
 
-/* PARENTS */
-.parents {
+
+/* FANDOM */
+.fandom {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -168,26 +165,6 @@ nav a:hover {
   object-fit: cover;
 }
 
-/* CONTACT */
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.socials a {
-  padding: 12px 22px;
-  border-radius: 30px;
-  background: #e0f7fa;
-  text-decoration: none;
-  color: #969696;
-  transition: 0.3s;
-}
-
-.socials a:hover {
-  background: #967859;
-  color: white;
-}
 
 /* ANIMATION */
 @keyframes slideUp {
@@ -223,4 +200,5 @@ nav a:hover {
 
 .info-box p {
   opacity: 0.85;
+
 }
